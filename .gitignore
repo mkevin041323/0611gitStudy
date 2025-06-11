@@ -29,4 +29,8 @@ Release/
 *.cache
 *.dbmdl
 *.bak
+<<<<<<< HEAD
 
+=======
+*.wsuo
+>>>>>>> Calculator_Only
