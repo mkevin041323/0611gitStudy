@@ -1,29 +1,31 @@
-
-# Visual Studio 캐시 무시
+# Visual Studio 관련 캐시/설정 파일 무시
 .vs/
 *.suo
 *.user
 *.VC.db
-*.vscode/
 *.ipch
-*.db
+*.vsidx
 *.sqlite
-*.sdf
-*.psess
-*.vsp
-*.ncb
-*.opensdf
-
-# 빌드 파일 무시
-*.exe
-*.obj
-*.pdb
+*.db
 *.log
 *.tlog
-*.ilk
 *.cache
-*.tmp
+*.pdb
+*.ilk
+*.exe
 
-# 기타
+# 빌드 결과물
+x64/
+Debug/
+Release/
+*.obj
+
+# 기타 자동 생성 파일
 *.json
-
+*.ipch
+*.ncb
+*.opensdf
+*.sdf
+*.cache
+*.dbmdl
+*.bak

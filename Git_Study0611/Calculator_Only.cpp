@@ -6,19 +6,19 @@ Calculator_Only::Calculator_Only(int param1, int param2) {
 	a = param1;
 	b = param2;
 }
-void Calculator_Only::add() {
-	cout << a + b << endl;
+int Calculator_Only::add() {
+	return a + b;
 }
 
-void Calculator_Only::min() {
-	cout << a - b << endl;
+int Calculator_Only::min() {
+	return a - b;
 
 }
 
-void Calculator_Only::mul() {
-	cout << a * b << endl;
+int Calculator_Only::mul() {
+	return a * b;
 }
 
-void Calculator_Only::div() {
-	cout << a / b << endl;
+int Calculator_Only::div() {
+	return a / b;
 }
