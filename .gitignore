@@ -1,0 +1,29 @@
+
+# Visual Studio 캐시 무시
+.vs/
+*.suo
+*.user
+*.VC.db
+*.vscode/
+*.ipch
+*.db
+*.sqlite
+*.sdf
+*.psess
+*.vsp
+*.ncb
+*.opensdf
+
+# 빌드 파일 무시
+*.exe
+*.obj
+*.pdb
+*.log
+*.tlog
+*.ilk
+*.cache
+*.tmp
+
+# 기타
+*.json
+
